@@ -42,7 +42,8 @@ name = last_student_by_method(arr)
 puts name
 
 def first_second_and_third_students(arr)
-  return arr[1,2,3]
+  return arr[0,1,2]
+  a= [STUDENT_NAMES[0,2]]
 end
 name = first_second_and_third_students(arr)
 puts name
